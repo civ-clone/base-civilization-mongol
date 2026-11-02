@@ -17,7 +17,7 @@ describe('Mongol', (): void => {
     expect(attributes.people).to.equal('Mongol');
     expect(attributes.nation).to.equal('Mongolia');
     // The first fills a unit's shield and a city's square; the second is the shield's edge and the city.
-    expect(attributes.colors).to.eql(['#5A8F3C', '#F5C342']);
+    expect(attributes.colors).to.eql(['#73730D', '#FFF5C0']);
   });
 
   it('has city names, all different, with its capital first', (): void => {
